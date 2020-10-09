@@ -33,9 +33,10 @@ Initial database fetched from: https://github.com/hiiamrohit/Countries-States-Ci
 getCountryByCode(code)
 ---------------
 
-It accepts a valid `CountryCode` eg: `'AS'` and   returns *Country Details*
+It accepts a valid `CountryCode` (sortname) eg: `'AS'` and   returns *Country Details*
 
 type: **json | ICountry**
+example: **getCountryByCode(AS)**
 
 ```js
 {
@@ -52,6 +53,7 @@ getCountryById(id)
 It accepts a valid `CountryId` and   returns *Country Details*
 
 type: **json | ICountry**
+example: **getCountryById(4)**
 
 ```js
 {
@@ -68,6 +70,7 @@ getStateById(id)
 It accepts a valid `StateId` and   returns *State Details*
 
 type: **json | IState**
+example: **getStateById(4119)**
 
 ```js
 {
@@ -83,6 +86,7 @@ getCityById(id)
 It accepts a valid `CityId` and   returns *City Details*
 
 type: **json | ICity**
+example: **getCityById(3)**
 
 ```js
 {
