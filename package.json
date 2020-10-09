@@ -1,0 +1,46 @@
+{
+  "name": "countrylist",
+  "version": "1.0.0",
+  "description": "Library for Country, City and State/Province",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "beeesp@gmail.com",
+  "license": "GPL-3.0",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beaespi/countrylist.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  },
+  "keywords": [
+    "Country",
+    "State",
+    "City",
+    "GeoLocation",
+    "Search",
+    "Filter"
+  ],
+  "bugs": {
+    "url": "https://github.com/beaespi/countrylist.git/issues"
+  },
+  "homepage": "https://github.com/beaespi/countrylist.git#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "husky": "^1.3.1",
+    "jest": "^23.6.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {}
+}
