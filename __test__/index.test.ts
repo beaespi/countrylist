@@ -72,6 +72,7 @@ const executeAllTests = function(csc: any) {
       'Colorado',
       'Connecticut',
       'Delaware',
+      'District of Columbia',
       'Florida',
       'Georgia',
       'Hawaii',
@@ -117,58 +118,6 @@ const executeAllTests = function(csc: any) {
     ])
   })
 
-  test('Check States for India', () => {
-    const code = '101';
-    let country = csc.getCountryById(code);
-    let states = csc.getStatesOfCountry(country.id);
-    let names = states.map((state: IState) => state.name);
-
-    expect(names).toEqual([
-      'Andaman and Nicobar Islands',
-      'Andhra Pradesh',
-      'Arunachal Pradesh',
-      'Assam',
-      'Bihar',
-      'Chandigarh',
-      'Chhattisgarh',
-      'Dadra and Nagar Haveli',
-      'Daman and Diu',
-      'Delhi',
-      'Goa',
-      'Gujarat',
-      'Haryana',
-      'Himachal Pradesh',
-      'Jammu and Kashmir',
-      'Jharkhand',
-      'Karnataka',
-      'Kerala',
-      'Lakshadweep',
-      'Madhya Pradesh',
-      'Maharashtra',
-      'Manipur',
-      'Meghalaya',
-      'Mizoram',
-      'Nagaland',
-      'Odisha',
-      'Pondicherry',
-      'Punjab',
-      'Rajasthan',
-      'Sikkim',
-      'Tamil Nadu',
-      'Telangana',
-      'Tripura',
-      'Uttar Pradesh',
-      'Uttarakhand',
-      'West Bengal'
-    ])
-  })
-
-  test('Check Cities for Delhi', () => {
-    const code = '101';
-    let cities = csc.getCitiesOfState('10');
-    let names = cities.map((city: ICity) => city.name);
-    expect(names).toEqual(['Delhi', 'New Delhi']);
-  })
 }
 export default executeAllTests;
 executeAllTests(csc);
