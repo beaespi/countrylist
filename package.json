@@ -1,5 +1,5 @@
 {
-  "name": "countrylist",
+  "name": "countrystatecitylist",
   "version": "1.0.0",
   "description": "Library for Country, City and State/Province",
   "main": "dist/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/beaespi/countrylist.git"
+    "url": "git+https://github.com/beaespi/countrystatecitylist.git"
   },
   "husky": {
     "hooks": {
@@ -32,9 +32,9 @@
     "Filter"
   ],
   "bugs": {
-    "url": "https://github.com/beaespi/countrylist.git/issues"
+    "url": "https://github.com/beaespi/countrystatecitylist.git/issues"
   },
-  "homepage": "https://github.com/beaespi/countrylist.git#readme",
+  "homepage": "https://github.com/beaespi/countrystatecitylist.git#readme",
   "devDependencies": {
     "@types/jest": "^24.0.12",
     "husky": "^1.3.1",

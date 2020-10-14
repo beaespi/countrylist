@@ -1,4 +1,4 @@
-countrylist
+countrystatecitylist
 ==============================
 Basic library for Country, State and City
 
@@ -6,26 +6,26 @@ Initial database fetched from: https://github.com/hiiamrohit/Countries-States-Ci
 Improved and updated Repo from: https://github.com/harpreetkhalsagtbit/country-state-city
 
 # Installation
-`npm i countrylist`
+`npm i countrystatecitylist`
 
 
 # Integration
   - ES6 Module usage
    
      ```js
-     import csc from 'countrylist'
+     import csc from 'countrystatecitylist'
 
      // Import Interfaces`
-     import { ICountry, IState, ICity } from 'countrylist'
+     import { ICountry, IState, ICity } from 'countrystatecitylist'
      ```
   - AMD Module usage
   
     ```js
-    let csc = require('countrylist').default
+    let csc = require('countrystatecitylist').default
 
     // OR
 
-    let csc = require('countrylist')
+    let csc = require('countrystatecitylist')
     ```
 
 
