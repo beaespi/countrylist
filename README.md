@@ -3,6 +3,7 @@ countrylist
 Basic library for Country, State and City
 
 Initial database fetched from: https://github.com/hiiamrohit/Countries-States-Cities-database
+Improved and updated Repo from: https://github.com/harpreetkhalsagtbit/country-state-city
 
 # Installation
 `npm i countrylist`
